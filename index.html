@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeeDee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon"href="Images/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="countdown-page">
+        <h1>???</h1>
+        <div class="countdown-timer">
+            <div class="hours">
+                <p id="hours-display">00</p>
+                <span>Hours</span>
+            </div>
+            <div class="minutes">
+                <p id="minutes-display">00</p>
+                <span>Minutes</span>
+            </div>
+            <div class="seconds">
+                <p id="seconds-display">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <button type="button" id="reveal-button" style="display: none;">Click me!</button>
+    </div>
+    <div class="reveal-page" style="display: none;">
+                <div class="shade">
+            <img src="Images/shade.png">
+        </div>
+        <div class="flying-letters">
+            <h1 class="happy-row">
+                <span style="animation-delay: 0s;">H</span>
+                <span style="animation-delay: 0.2s;">A</span>
+                <span style="animation-delay: 0.4s;">P</span>
+                <span style="animation-delay: 0.6s;">P</span>
+                <span style="animation-delay: 0.8s;">Y</span>
+            </h1>
+            <h1 class="birthday-row">
+                <span style="animation-delay: 1s;">B</span>
+                <span style="animation-delay: 1.2s;">I</span>
+                <span style="animation-delay: 1.4s;">R</span>
+                <span style="animation-delay: 1.6s;">T</span>
+                <span style="animation-delay: 1.8s;">H</span>
+                <span style="animation-delay: 2s;">D</span>
+                <span style="animation-delay: 2.2s;">A</span>
+                <span style="animation-delay: 2.4s;">Y</span>
+            </h1>
+            <div class="squeakgif">
+                <img src="Images/squeakHeart.gif">
+            </div>
+        </div>
+        <div class="squeak">
+            <img src="Images/squeak.png">
+        </div>
+        <div id="confetti-container">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
