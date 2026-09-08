@@ -1,4 +1,4 @@
-const birthdayDate = new Date(2026, 9, 8, 0, 0, 0).getTime();
+const birthdayDate = new Date(2026, 8, 9, 0, 0, 0).getTime();
 
 const countdownInterval = setInterval(function() {
     const now = new Date().getTime();
